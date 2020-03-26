@@ -7,13 +7,20 @@ public class Province {
     private int confirmed;
     private  int deaths;
     private int recovered;
-    ConcurrentHashMap<String,City> cities;
+    ConcurrentHashMap<String,City> cities= new ConcurrentHashMap<>();
 
     public Province(String name, int confirmed,int deaths, int recovered){
         this.name = name;
         this.recovered = recovered;
         this.deaths = deaths;
         this.confirmed = confirmed;
+    }
+
+    public Province(String name){
+        this.confirmed = 0;
+        this.deaths = 0;
+        this.recovered = 0;
+        this.name = name;
     }
 
     public String getName() {

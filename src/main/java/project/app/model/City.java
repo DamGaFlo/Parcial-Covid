@@ -6,6 +6,13 @@ public class City {
     private  int deaths;
     private int recovered;
 
+    public City(String name, int confirmed, int deaths, int recovered) {
+        this.name = name;
+        this.confirmed = confirmed;
+        this.deaths = deaths;
+        this.recovered = recovered;
+    }
+
     public int getConfirmed() {
         return confirmed;
     }
