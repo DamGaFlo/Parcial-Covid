@@ -1,5 +1,17 @@
 # Escuela Colombiana de Ingeniería Julio Garavito - Arquitecturas de Software ARSW - Parcial Segundo Tercio
 
+## Ejecucion y test
+
+### ejecucion
+en el directorio parcial-covid ejecutar mvn spring-boot:run
+### test
+
+en el directorio parcial-covid ejecutar mvn test
+
+### criterio de extensibilidad
+
+el proyecto esta creado usando patrones como inyeccion de dependecias y se puede tratar los servicios que se ofrecen y se puede cambia de proveedor o tratar con otros agregarndolos en HTTPServices dando los datos de manera adecuada esta los tratara
+
 ## Preparación para el Parcial
 
 Con el objetivo de preparar el examen final del segundo tercio, por favor siga las siguientes instrucciones.
@@ -48,11 +60,11 @@ Sugerencia realice la implementación de manera incremental. Haga commits regula
 
 ### Diagrama de Despliegue
 
-![](ArchitectureDiagrams/DeploymentDiagram.png)
+![](https://github.com/DamGaFlo/Parcial-Covid/blob/master/modelos/DeploymentDiagram.png)
 
 ### Diagrama de Componentes
 
-![](ArchitectureDiagrams/ComponentDiagram.png)
+![](https://github.com/DamGaFlo/Parcial-Covid/blob/master/modelos/ComponentDiagram.png)
 
 ## Requerimientos de Entrega
 
